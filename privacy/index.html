@@ -68,7 +68,13 @@ footer a{color:var(--dim);margin-right:14px}
 <p>Some of these providers process data in the United States. Where the law requires it, they do so under their data processing terms for international transfers.</p>
 
 <h2>Analytics and crash reports</h2>
-<p>Resellio uses Google Firebase Analytics and Firebase Crashlytics to understand how the app is used and to fix crashes. They receive which screens you open and which features you use (for example that a listing was created for a given marketplace and how many photos it had, never the photos, the listing text or anything you typed), crash reports, device model, operating system and app version, and a random app-instance identifier. This data is not used for advertising and is not used to track you across apps or websites.</p>
+<p>Resellio uses Google Firebase Analytics and Firebase Crashlytics to see which features are used and to fix crashes. They receive:</p>
+<ul>
+<li><strong>Feature counts.</strong> For example that onboarding was finished, a marketplace was picked, photos were added (and how many), a listing was created (marketplace, number of photos, whether you added a note, a rough time range and a broad category such as “fashion” or “electronics”), a field was copied, the paywall was shown, or a purchase ended (which product and whether it went through). Never the photos, the listing text, the brand, your note, your email or your account identifier.</li>
+<li><strong>Crash reports</strong>, with the last few feature names before the crash.</li>
+<li><strong>Device details:</strong> device model, iOS version, app version, language, a coarse country derived from your IP address, and a random app-instance identifier that is not linked to your account.</li>
+</ul>
+<p>You can turn analytics off at any time in the app: Menu → Privacy → “Share usage data”. Crash reports stay on, because they contain no usage data and help us fix problems for everyone. Analytics data is kept for 2 months, the shortest setting Firebase offers. Firebase receives no advertising identifier, advertising features are off, and the data is not used to track you across apps or websites or shared with Google for its own purposes.</p>
 <p>This website sets no cookies and runs no analytics.</p>
 
 <h2>How long we keep data</h2>
